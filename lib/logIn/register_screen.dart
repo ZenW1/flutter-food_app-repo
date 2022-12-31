@@ -111,6 +111,9 @@ class Login3 extends StatelessWidget {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
+                      side: const BorderSide(
+                        width: 1
+                      ),
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,

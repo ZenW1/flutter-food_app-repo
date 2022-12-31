@@ -119,6 +119,9 @@ class Login2 extends StatelessWidget {
                     onPressed: () {},
                     style: ElevatedButton.styleFrom(
                       backgroundColor: Colors.white,
+                      side: BorderSide(
+                        width: 1,
+                      )
                     ),
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.center,
@@ -129,8 +132,8 @@ class Login2 extends StatelessWidget {
                             borderRadius: BorderRadius.circular(10),
                             side: const BorderSide(
                               width: 5,
-                            )
-                          )
+                            ),
+                          ),
                          ),
                          child:  const Icon(Icons.facebook,color: Colors.black),
                        ),
